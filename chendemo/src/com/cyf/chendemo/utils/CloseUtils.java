@@ -15,9 +15,10 @@ public final class CloseUtils {
 	}
 
 	/**
-	 * 关闭closeable对象
+	 * 关闭closeable对象。
 	 * 
-	 * @param closeable
+	 * 调用方法：CloseUtils.closeQuietly(fileOutputStream);
+	 * @param closeable 要被关闭的实例对象。
 	 */
 	public static void closeQuietly(Closeable closeable) {
 		if (null != closeable) {
