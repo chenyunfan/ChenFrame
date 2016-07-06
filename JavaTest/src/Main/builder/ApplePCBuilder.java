@@ -1,4 +1,4 @@
-package Main;
+package Main.builder;
 public class ApplePCBuilder extends Builder {  
     private Computer mApplePc = new AppleComputer();  
   

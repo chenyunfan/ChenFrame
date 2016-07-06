@@ -1,4 +1,4 @@
-package Main;
+package Main.builder;
 /** 
  * Computer产品抽象类, 为了例子简单, 只列出这几个属性 
  *  
