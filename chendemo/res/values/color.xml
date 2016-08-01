@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white_benchi">#eeeeee</color>
+    <color name="orange_benchi">#ff5500</color>
+    
+    <color name="black">#666a76</color>
+    <color name="white">#ffffffff</color>
+
+</resources>

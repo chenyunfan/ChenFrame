@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/textAppearanceLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="8dp" >
+
+        <TextView
+            android:id="@+id/tv_message"
+            style="@style/textAppearanceLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            android:text="@string/exit_text"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_gps"
+            style="@style/textAppearanceLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            android:text="@string/exit_text"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/btn_exit_ok"
+                style="@style/textAppearanceLarge"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/exit_ok" />
+
+            <Button
+                android:id="@+id/btn_exit_no"
+                style="@style/textAppearanceLarge"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/exit_no" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
